@@ -109,7 +109,7 @@ Churn       87,048명  (93.2%)
 
 #### Cohort 분석 결과
 
-![image.png](images/image%201.png)
+![image.png](images/image1.png)
 
 **Insight 1**
 
@@ -173,7 +173,7 @@ H3. 고객 경험(배송, 리뷰)이 이탈의 주요 원인일 것이다.
 - 독립 변수 : 'avg_order_gap', 'order_count', 'total_revenue’
 - 종속변수 : ‘churn_90’
 
-![image.png](images/image%202.png)
+![image.png](images/image2.png)
 
 #### 결론
 
@@ -208,9 +208,9 @@ loyalty indicator로 활용 가능
 | behavior (재구매 패턴) | Fast / Normal/Slow |
 | churn_type (이탈 유형) | Early / Loyal |
 
-![image.png](images/image%203.png)
+![image.png](images/image3.png)
 
-![image.png](images/image%204.png)
+![image.png](images/image4.png)
 
 ### 1. Lifecycle 세그먼트
 
@@ -248,11 +248,11 @@ loyalty indicator로 활용 가능
 | Dormant | 1.5g < days_since_last ≤ 3g | 평균에서 200% 이내 이탈 · 관찰 필요 |
 | Loyal Churn | days_since_last > 3g | 정상 주기 3배 초과 · 이탈로 판정 |
 
-![image.png](images/image%205.png)
+![image.png](images/image5.png)
 
-![image.png](images/image%206.png)
+![image.png](images/image6.png)
 
-![image.png](images/image%207.png)
+![image.png](images/image7.png)
 
 ### 2. Churn type 세그먼트
 
@@ -262,11 +262,11 @@ loyalty indicator로 활용 가능
 | Loyal churn | order_count ≥ 2 재구매 후 이탈 | 3,843명 |
 | Non-churn | 이탈 아님 | 8,230명 |
 
-![image.png](images/image%208.png)
+![image.png](images/image8.png)
 
-![image.png](images/image%209.png)
+![image.png](images/image9.png)
 
-![image.png](images/image%2010.png)
+![image.png](images/image10.png)
 
 ### 3. Behavior 세그먼트
 
@@ -279,7 +279,7 @@ loyalty indicator로 활용 가능
 | Normal | 30일 < g ≤ 90일 | 월 단위 구매 · 일반적인 재구매 리듬 |
 | Slow | g > 90일 | 장주기 구매자 · 이탈 위험 높은 그룹 |
 
-![image.png](images/image%2011.png)
+![image.png](images/image11.png)
 
 #### 4. value 세그먼트
 
@@ -289,9 +289,9 @@ loyalty indicator로 활용 가능
 | Mid | R$ 71.63 ~ R$ 167.75 | 40% | R$ 114 | R$ 111 |
 | VIP | total_revenue ≥ R$ 167.75 | 30% | R$ 373 | R$ 259 |
 
-![image.png](images/image%2012.png)
+![image.png](images/image12.png)
 
-![image.png](images/image%2013.png)
+![image.png](images/image13.png)
 
 - Churn이 72~74%로 압도적인 매출을 띄고 있다.
 - VIP의 Active 비율(1.58%)이 Low(0.06%)보다 약 26배 높다. 단, 절대 수치 자체가 워낙 작아서  "VIP가 이탈을 덜 한다"는 결론을 내리기엔 부족하다.
@@ -461,12 +461,12 @@ H3는 통계적으로 유의하였으나, 설명력이 제한적이므로 고객
 
 1. **세그먼트별 4점 기준 점수별 차이**
 
-![image.png](images/image%2014.png)
+![image.png](images/image14.png)
 
 1. **Churn Type별 감성 분석 키워드** 
 - Early churn + Negative
 
-![image.png](images/5dbe08a8-e675-4ab3-89c8-6e3075eeb32f.png)
+![image.png](images/image19.png)
 
 - nao / nada → 강한 부정 ❗
 - quero → 요구 ❗
@@ -478,7 +478,7 @@ H3는 통계적으로 유의하였으나, 설명력이 제한적이므로 고객
 
 - Loyal churn + Positive
 
-![image.png](images/df43117a-f25d-49cb-b2a0-5b391d98c720.png)
+![image.png](images/image20.png)
 
 - recomendo → 추천 ⭐
 - excelente / ótimo → 훌륭 ⭐
@@ -492,7 +492,7 @@ H3는 통계적으로 유의하였으나, 설명력이 제한적이므로 고객
 
 - Non-churn + Negative
 
-![image.png](images/image%2015.png)
+![image.png](images/image15.png)
 
 - nao → 안됨 ❗
 - nada → 아무것도 없음 ❗
@@ -511,11 +511,11 @@ H3는 통계적으로 유의하였으나, 설명력이 제한적이므로 고객
 
 - Early churn + Negative
 
-![image.png](images/image%2016.png)
+![image.png](images/image16.png)
 
 - Non-churn + Negative
 
-![image.png](images/image%2017.png)
+![image.png](images/image17.png)
 
 - Delivery
     - Early churn : atraso(지연), demora(지연), nao chegou(미도착)
@@ -527,7 +527,7 @@ H3는 통계적으로 유의하였으나, 설명력이 제한적이므로 고객
     - Early churn : nao, nada, quero
     - Non-churn :  nao, aguardando
 
-![image.png](images/image%2018.png)
+![image.png](images/image18.png)
 
 - 배송 관련 단어에서 Negative가 현저히 높게 나옴
 - 품질 관련 단어에서는 Positive가 현저히 높게 나옴
